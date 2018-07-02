@@ -1,0 +1,2 @@
+# BST-for-classification
+Binary search tree for classification.   This is a primitive ML algorithm that consists of a binary search tree where the nodes holds a single word each, and all nodes combined holds all the words in previously classified data. In addition each node has information on frequency of  its word for each category. When the model sees a new text that it is supposed to classify, it will treat the text as a bag of words and will calculate accumulated probability based on accumulated frequencies for all the words for all the categories.
